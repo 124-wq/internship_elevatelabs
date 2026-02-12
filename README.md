@@ -6,6 +6,7 @@ The calculator demonstrates fundamental programming concepts such as input handl
 ---
 
 ## Features ✨
+
 - Perform basic arithmetic operations:
   - Addition
   - Subtraction
@@ -13,7 +14,9 @@ The calculator demonstrates fundamental programming concepts such as input handl
   - Division
   - Modulus
 - User-friendly command-line interface
+- takes on multiple input using loop
 - Lightweight and easy to run
+- press 'x' to exit the input loop
 
 ---
 
