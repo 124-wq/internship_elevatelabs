@@ -7,7 +7,7 @@ The projects focus on strengthening core programming fundamentals such as input 
 
 ## 📌 Included Projects
 
-### 1️⃣ Calculator 🧮
+### 1️ Calculator 🧮
 A simple command-line calculator that performs basic arithmetic operations.
 
 **Features**
@@ -21,7 +21,7 @@ A simple command-line calculator that performs basic arithmetic operations.
 
 ---
 
-### 2️⃣ To-Do List Manager 📋
+### 2 To-Do List Manager 📋
 A command-line task manager that allows users to store and manage daily tasks.
 
 **Features**
@@ -34,11 +34,20 @@ A command-line task manager that allows users to store and manage daily tasks.
 
 ---
 
+### 3 News Headlines Parser
+An application for scraping top headlines from a news website
+
+**Features**
+- parses a news website using its url
+- stores the headlines in a separate text file
+- prints the headlines
+
 ## ⚙️ Requirements
 - Python **3.x**
 - Terminal / Command Prompt
+- BeautifulSoup for headlines parsing
+- requests
 
-(No external libraries required — uses built-in Python only)
 
 ---
 
@@ -64,6 +73,11 @@ python calculator.py
 **Run To-Do List**
 ```bash
 python todo_list.py
+```
+
+**Run News Headline Parser**
+```bash
+python news.py
 ```
 
 ## 📁 Project Structure
