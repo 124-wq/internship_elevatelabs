@@ -45,6 +45,10 @@ An application for scraping top headlines from a news website
 ### 4 Build a REST API with flask
 -Use Flask to create endpoints
 -Store users in a dictionary or in-memory list
+- Add a new user
+- View all users
+- Update an existing user
+- Delete a user 
 
 
 ## ⚙️ Requirements
@@ -52,6 +56,8 @@ An application for scraping top headlines from a news website
 - Terminal / Command Prompt
 - BeautifulSoup for headlines parsing
 - requests
+- Flask
+- Postman 
 
 
 ---
