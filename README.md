@@ -43,12 +43,16 @@ An application for scraping top headlines from a news website
 - prints the headlines
 
 ### 4 Build a REST API with flask
--Use Flask to create endpoints
--Store users in a dictionary or in-memory list
+- Use Flask to create endpoints
+- Store users in a dictionary or in-memory list
 - Add a new user
 - View all users
 - Update an existing user
 - Delete a user 
+
+### 5 Data analysis on CSV files
+- Loading a dataset in Jupyter Notebook
+- Use groupby(),sum() and plot()
 
 
 ## ⚙️ Requirements
@@ -58,7 +62,9 @@ An application for scraping top headlines from a news website
 - requests
 - Flask
 - Postman 
-
+- Jupyter Notebook
+- dataset - python_practice_dataset.csv
+- matplotlib library
 
 ---
 
@@ -94,16 +100,7 @@ python news.py
 ```bash
 python app.py
 ```
-## 📁 Project Structure
-```
-internship_elevatelabs/
-│── calculator.py
-│── todo_list.py
-│── to_do_list.txt
-│── README.md
-```
 
----
 
 ## 👨‍💻 Author
 Lovely Bisht
