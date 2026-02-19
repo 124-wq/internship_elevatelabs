@@ -42,11 +42,22 @@ An application for scraping top headlines from a news website
 - stores the headlines in a separate text file
 - prints the headlines
 
+### 4 Build a REST API with flask
+-Use Flask to create endpoints
+-Store users in a dictionary or in-memory list
+- Add a new user
+- View all users
+- Update an existing user
+- Delete a user 
+
+
 ## ⚙️ Requirements
 - Python **3.x**
 - Terminal / Command Prompt
 - BeautifulSoup for headlines parsing
 - requests
+- Flask
+- Postman 
 
 
 ---
@@ -79,7 +90,10 @@ python todo_list.py
 ```bash
 python news.py
 ```
-
+**Run News Headline Parser**
+```bash
+python app.py
+```
 ## 📁 Project Structure
 ```
 internship_elevatelabs/
