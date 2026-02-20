@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lovely Bisht — Python Developer Portfolio. Projects in AI, Computer Vision and Automation." />
+  <title>Lovely Bisht | Python Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--primary:#2563eb;--primary-dark:#1e40af;--accent:#38bdf8;--bg:#0f172a;--card:#111827;--text:#e5e7eb;--muted:#94a3b8;--border:#1f2937}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'Inter',system-ui,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#020617,#0f172a);color:var(--text);line-height:1.6}
+    .container{max-width:1100px;margin:auto;padding:0 24px}
+    header{position:sticky;top:0;z-index:1000;background:rgba(2,6,23,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .logo{font-weight:700;font-size:20px;color:white;letter-spacing:.5px}
+    nav a{margin-left:24px;text-decoration:none;color:var(--muted);font-weight:500;transition:.25s}
+    nav a:hover{color:var(--accent)}
+    .hero{padding:90px 0 70px;text-align:center}
+    .hero h1{font-size:42px;margin-bottom:10px;background:linear-gradient(90deg,#60a5fa,#22d3ee);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .hero p{color:var(--muted);max-width:650px;margin:10px auto 30px;font-size:18px}
+    .btn{display:inline-block;padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:600;margin:6px;transition:.25s}
+    .btn-primary{background:var(--primary);color:white}
+    .btn-primary:hover{background:var(--primary-dark);transform:translateY(-2px)}
+    .btn-outline{border:1px solid var(--border);color:var(--text)}
+    .btn-outline:hover{border-color:var(--accent);color:var(--accent)}
+    section{padding:70px 0}
+    h2{text-align:center;font-size:30px;margin-bottom:40px}
+    .card{background:var(--card);border:1px solid var(--border);padding:24px;border-radius:18px;transition:.25s}
+    .card:hover{transform:translateY(-6px);border-color:var(--accent);box-shadow:0 15px 40px rgba(2,132,199,.25)}
+    .muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+    .tags{margin-top:14px}
+    .tag{display:inline-block;background:#020617;border:1px solid var(--border);padding:5px 10px;margin:4px 4px 0 0;border-radius:999px;font-size:12px;color:#93c5fd}
+    .list{list-style:disc;padding-left:18px}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .contact{text-align:center}
+    .contact a{color:var(--accent);text-decoration:none}
+    .form{max-width:560px;margin:20px auto 0;text-align:left}
+    .field{margin-bottom:14px}
+    .field label{display:block;font-size:14px;margin-bottom:6px;color:var(--muted)}
+    .field input,.field textarea{width:100%;padding:12px;border-radius:10px;border:1px solid var(--border);background:#020617;color:var(--text)}
+    footer{border-top:1px solid var(--border);text-align:center;padding:25px 0;margin-top:40px;color:var(--muted);font-size:14px}
+    @media(max-width:700px){.hero h1{font-size:30px}.two-col{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="logo">Lovely Bisht</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<section class="hero">
+  <div class="container">
+    <h1>Python Developer & CS Student</h1>
+    <p>I build intelligent systems and automation tools using Python, AI and Computer Vision. Passionate about open source and real‑world problem solving.</p>
+    <a class="btn btn-primary" href="#projects">View My Work</a>
+    <a class="btn btn-outline" href="/Lovely bisht.pdf" download>Download Resume</a>
+  </div>
+</section>
+<section id="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Hello! I'm <strong>Lovely Bisht</strong>, a Python developer focused on AI, automation and backend systems. I am a second year student at GBPUAT Pantnagar pursuing BTECH Information Technology.</p>
+    </div>
+  </div>
+</section>
+<section id="skills">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="two-col">
+      <div class="card">
+        <h3>Languages</h3>
+        <ul class="list muted"><li>Python</li><li>C/C++ (basic) <!-- edit if needed --></li></ul>
+        <h3 style="margin-top:18px">Libraries & Frameworks</h3>
+        <ul class="list muted"><li>Flask</li><li>OpenCV</li><li>SpeechRecognition</li><li>pyttsx3</li><li>NumPy</li></ul>
+      </div>
+      <div class="card">
+        <h3>Concepts</h3>
+        <ul class="list muted"><li>OOP</li><li>REST APIs</li><li>Data Structures</li><li>File Handling</li></ul>
+        <h3 style="margin-top:18px">Tools</h3>
+        <ul class="list muted"><li>Git & GitHub</li><li>VS Code</li><li>Postman</li><li>Linux (basic)</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Jarvis Virtual Assistant</h3>
+        <p class="muted">Voice‑controlled desktop assistant to open applications, play media and answer queries using speech recognition and TTS.</p>
+        <ul class="list muted"><li>Voice command recognition</li><li>Application automation</li><li>System control & utilities</li></ul>
+        <div class="tags"><span class="tag">Python</span><span class="tag">SpeechRecognition</span><span class="tag">pyttsx3</span><span class="tag">Automation</span></div>
+        <p style="margin-top:12px"><a href="https://github.com/124-wq/jarvis-virtual-assistant" target="_blank" rel="noopener">View Code →</a></p>
+      </div>
+      <div class="card">
+        <h3>Real‑Time Face Recognition</h3>
+        <p class="muted">Detects and recognizes faces in live video streams and images using OpenCV.</p>
+        <ul class="list muted"><li>Face detection & encoding</li><li>Training and identification</li><li>Real‑time video processing</li></ul>
+        <div class="tags"><span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">Computer Vision</span></div>
+        <p style="margin-top:12px"><a href="https://github.com/124-wq/face-recognition-model" target="_blank" rel="noopener">View Code →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="experience">
+  <div class="container">
+    <h2>Experience</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Personal Development Experience</h3>
+        <ul class="list muted"><li>Developed REST APIs using Flask</li><li>Implemented computer vision applications</li><li>Built automation tools with Python</li><li>Worked with Git workflow (commits, branches, pull requests)</li></ul>
+      </div>
+      <div class="card">
+        <h3>Open Source & Learning</h3>
+        <ul class="list muted"><li>Learning contribution workflow (issues, forks, PRs)</li><li>Studying codebases and documentation</li><li>Preparing for GSoC participation</li><li><!-- Add your PR links here --></li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="container contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:bishtlovely28@gmail.com">bishtlovely28@gmail.com</a></p>
+    <p><a href="https://www.linkedin.com/in/lovely-bisht-89a674316/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/124-wq" target="_blank" rel="noopener">GitHub</a></p>
+    <form class="form" action="#" method="post">
+      <div class="field"><label>Name</label><input type="text" name="name" required></div>
+      <div class="field"><label>Email</label><input type="email" name="email" required></div>
+      <div class="field"><label>Message</label><textarea name="message" rows="4" required></textarea></div>
+      <button class="btn btn-primary" type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+<footer>© 2026 Lovely Bisht · Built with HTML & CSS</footer>
+</body>
+</html>
