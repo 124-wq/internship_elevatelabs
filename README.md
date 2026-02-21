@@ -54,7 +54,8 @@ An application for scraping top headlines from a news website
 - Loading a dataset in Jupyter Notebook
 - Use groupby(),sum() and plot()
 
-
+### 6 Portfolio
+- using flask
 ## ⚙️ Requirements
 - Python **3.x**
 - Terminal / Command Prompt
