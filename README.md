@@ -1,111 +1,232 @@
-# ElevateLabs Internship Projects 
+# 🚀 ElevateLabs Internship – Python Projects Collection
 
-This repository contains multiple **Python command-line applications** developed as part of my internship at **ElevateLabs**.  
-The projects focus on strengthening core programming fundamentals such as input handling, loops, conditionals, file handling, and working with data structures.
+This repository contains a collection of **hands-on Python projects** developed during my internship at **ElevateLabs**.
+The goal of these projects was to build strong foundations in **core programming, backend development, file handling, automation, data processing, and APIs** by implementing real working applications instead of only theoretical exercises.
 
----
-
-## 📌 Included Projects
-
-### 1️ Calculator 🧮
-A simple command-line calculator that performs basic arithmetic operations.
-
-**Features**
-- Addition (+)
-- Subtraction (−)
-- Multiplication (×)
-- Division (÷)
-- Modulus (%)
-- Continuous input using a loop
-- Press **'x'** to exit the program
+Each project focuses on a different practical concept — from command-line utilities to REST APIs and data analysis.
 
 ---
 
-### 2 To-Do List Manager 📋
-A command-line task manager that allows users to store and manage daily tasks.
+## 👩‍💻 What I Learned
 
-**Features**
-- Add a new task
-- View all tasks
-- Delete a task by number
-- Data saved permanently using a text file
-- Automatically loads previous tasks on restart
-- Uses both **Python lists (memory)** and **file handling (storage)**
+Through this internship, I practiced and applied:
+
+* Python fundamentals (loops, functions, conditionals)
+* File handling & persistent storage
+* Working with external libraries
+* Web scraping
+* REST API development
+* Backend development using Flask
+* Data analysis using Pandas
+* Visualization using Matplotlib
+* Image processing using Pillow
 
 ---
 
-### 3 News Headlines Parser
-An application for scraping top headlines from a news website
+## 🧰 Tech Stack
+
+| Category         | Technologies                              |
+| ---------------- | ----------------------------------------- |
+| Language         | Python 3                                  |
+| Backend          | Flask                                     |
+| Web Scraping     | Requests, BeautifulSoup                   |
+| Data Analysis    | Pandas, Matplotlib                        |
+| Image Processing | Pillow (PIL)                              |
+| Testing          | Postman                                   |
+| Environment      | VS Code, Command Prompt, Jupyter Notebook |
+
+---
+
+## 📂 Projects Included
+
+---
+
+### 🧮 1. Calculator (CLI Application)
+
+A simple interactive command-line calculator that performs arithmetic operations continuously until the user exits.
 
 **Features**
-- parses a news website using its url
-- stores the headlines in a separate text file
-- prints the headlines
 
-### 4 Build a REST API with flask
-- Use Flask to create endpoints
-- Store users in a dictionary or in-memory list
-- Add a new user
-- View all users
-- Update an existing user
-- Delete a user 
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Modulus
+* Continuous input loop
+* Exit using `x`
 
-### 5 Data analysis on CSV files
-- Loading a dataset in Jupyter Notebook
-- Use groupby(),sum() and plot()
+**Run**
 
-### 6 Portfolio
-- using flask
+```bash
+python calculator.py
+```
+
+---
+
+### 📋 2. To-Do List Manager
+
+A command-line task manager that stores tasks permanently using file handling.
+
+**Features**
+
+* Add tasks
+* View tasks
+* Delete tasks by number
+* Automatic loading of saved tasks
+* Persistent storage using a text file
+* Uses both memory (lists) and storage (files)
+
+**Concepts Used**
+
+* Lists
+* File I/O
+* User input handling
+
+**Run**
+
+```bash
+python todo_list.py
+```
+
+---
+
+### 📰 3. News Headlines Parser (Web Scraper)
+
+A Python script that fetches top news headlines from a website and saves them locally.
+
+**Features**
+
+* Fetch news using a URL
+* Parse HTML using BeautifulSoup
+* Extract headline text
+* Store results in a text file
+
+**Libraries Used**
+
+* requests
+* beautifulsoup4
+
+**Run**
+
+```bash
+python news.py
+```
+
+---
+
+### 🌐 4. REST API using Flask
+
+A backend API that performs CRUD (Create, Read, Update, Delete) operations on users.
+
+**Features**
+
+* Create a user
+* View all users
+* Update user details
+* Delete a user
+* JSON responses
+* Tested using Postman
+
+**Concepts Used**
+
+* Routing
+* HTTP methods (GET, POST, PUT, DELETE)
+* JSON handling
+
+**Run**
+
+```bash
+python app.py
+```
+
+---
+
+### 📊 5. CSV Data Analysis
+
+Data analysis performed in Jupyter Notebook using a dataset.
+
+**Features**
+
+* Load CSV dataset
+* Perform grouping using `groupby()`
+* Calculate sums and statistics
+* Plot graphs
+
+**Libraries Used**
+
+* pandas
+* matplotlib
+
+---
+
+### 🌍 6. Flask Portfolio Website
+
+A simple personal portfolio website built using Flask backend.
+
+**Features**
+
+* Web routing
+* HTML templates
+* Dynamic rendering using Flask
+
+---
+
+### 🖼️ 7. Image Resizer (Pillow)
+
+A Python automation tool that resizes all images in a folder.
+
+**Features**
+
+* Batch image processing
+* Resizes images to 100×100
+* Saves resized copies to another folder
+
+**Libraries Used**
+
+* Pillow (PIL)
+
+---
+
 ## ⚙️ Requirements
-- Python **3.x**
-- Terminal / Command Prompt
-- BeautifulSoup for headlines parsing
-- requests
-- Flask
-- Postman 
-- Jupyter Notebook
-- dataset - python_practice_dataset.csv
-- matplotlib library
+
+Install dependencies:
+
+```bash
+pip install flask requests beautifulsoup4 pandas matplotlib pillow
+```
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run the Repository
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/124-wq/internship_elevatelabs.git
 ```
 
 ### 2. Move into the project folder
+
 ```bash
 cd internship_elevatelabs
 ```
 
-### 3. Run a project
+### 3. Run any project
 
-**Run Calculator**
+Example:
+
 ```bash
 python calculator.py
 ```
 
-**Run To-Do List**
-```bash
-python todo_list.py
-```
-
-**Run News Headline Parser**
-```bash
-python news.py
-```
-**Run News Headline Parser**
-```bash
-python app.py
-```
-
+---
 
 ## 👨‍💻 Author
-Lovely Bisht
+
+**Lovely Bisht**
+
 ---
 
 ## 📄 License
+
 This project is open-source and intended for learning and educational purposes.
