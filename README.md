@@ -186,7 +186,11 @@ A Python automation tool that resizes all images in a folder.
 * Pillow (PIL)
 
 ---
+### 8. Chatbot using if-else
+- Use input/output loops
+- Use simple if-elif-else for responses
 
+---
 ## ⚙️ Requirements
 
 Install dependencies:
